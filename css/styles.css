@@ -134,6 +134,7 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   color: #2e2f42;
+  transition: color var(--transition-duration-func);
 }
 
 .header-link:hover,
@@ -228,6 +229,7 @@ body {
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
+  transition: background-color var(--transition-duration-func);
 }
 
 .hero-botton:hover,
@@ -700,9 +702,9 @@ body {
   transition: transform var(--transition-duration-func);
 }
 
-.gallery-item:hover .overlay-text{
+.gallery-item:hover .overlay-text {
   transform: translate(0);
-} 
+}
 
 /* --------- MODAL WINDOWS ----------------------------------------- */
 
